@@ -10,6 +10,9 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
 PRODUCT_PACKAGES += \
     ANGLE
 
+# Pixel Parts
+$(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
+
 # Camera
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
