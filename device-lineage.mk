@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES := \
     HbmSVManagerOverlay
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Pixel Parts
 $(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
 
