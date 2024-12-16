@@ -25,7 +25,6 @@
     <bool name="config_connectivity_helper_d2d_default_value">true</bool>
     <bool name="config_show_connectivity_helper_call_quality">true</bool>
     <bool name="config_show_connectivity_helper_d2d">true</bool>
-    <bool name="config_show_reverse_charging">true</bool>
     <bool name="config_show_touch_sensitivity">true</bool>
 
     <!-- Show Now Playing -->
