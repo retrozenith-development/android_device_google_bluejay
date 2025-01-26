@@ -31,6 +31,10 @@ $(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += system/app/ViPER4AndroidFX/ViPER4AndroidFX.apk
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # Build necessary packages for vendor
 
 # Codec2
